@@ -19,7 +19,7 @@ spec:
     - -c
     - |
       # Clone the Git repository
-      git clone https://github.com/Raghu0461/k8s-persistent-volumes.git /temp
+      git clone https://github.com/Vishalgajam/Docker.git /temp
     volumeMounts:
     - name: new-volume
       mountPath: /temp
